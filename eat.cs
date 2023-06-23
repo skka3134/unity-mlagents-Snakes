@@ -5,7 +5,7 @@ using Unity.MLAgents;
 using Unity.MLAgents.Sensors;
 using Unity.MLAgents.Actuators;
 
-public class move : Agent
+public class eat : Agent
 {
     public Transform target;
     Rigidbody rb;
