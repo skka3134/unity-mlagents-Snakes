@@ -12,7 +12,6 @@ pip uninstall protobuf
 pip install protobuf==3.19.6  
 pip uninstall numpy  
 pip install numpy==1.19  
-cd C:\Users\546546\Desktop\project\unityTrain\Assets\Train  
-mlagents-learn ball.yaml --runid-id=01  
+mlagents-learn config/ppo/ball.yaml --run-id=t1 
 conda remove -n base1 --all  
 
