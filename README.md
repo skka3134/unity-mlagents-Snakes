@@ -12,6 +12,6 @@ pip uninstall protobuf
 pip install protobuf==3.19.6  
 pip uninstall numpy  
 pip install numpy==1.19  
-mlagents-learn config/ppo/ball.yaml --run-id=t1 
+mlagents-learn config/ppo/ball.yaml --run-id=t1  
 conda remove -n base1 --all  
 
