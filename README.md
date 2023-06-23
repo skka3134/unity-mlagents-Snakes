@@ -3,7 +3,7 @@
 
 conda env list  
 conda create -n  base1 python=3.8  
-conda activate base1
+conda activate base1  
 pip install torch~=1.7.1  
 cd C:\Users\546546\Desktop\ml-agents-release_19\ml-agents-release_19  
 pip install -e./ml-agents-envs  
@@ -13,6 +13,6 @@ pip install protobuf==3.19.6
 pip uninstall numpy  
 pip install numpy==1.19  
 cd C:\Users\546546\Desktop\project\unityTrain\Assets\Train  
-mlagents-learn ball.yaml --runid-id=01
-conda remove -n base1 --all
+mlagents-learn ball.yaml --runid-id=01  
+conda remove -n base1 --all  
 
